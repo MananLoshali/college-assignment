@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+}
+
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+}
+
+.n-right{
+    flex: 3;
+    margin-right: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.heading{
+    font-size: 2rem;
+    color: greenyellow;
+} 
+
+.amount{
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.n-left{
+    flex: .7;
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    color: white;
+    font-weight: lighter;
+    color: rgb(231, 191, 47);
+}
+
+.bottom-container{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+}
+
+.info-container{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 30%;
+    height: 84vh;
+    background-color:#292b30;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.i-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.t-right{
+    flex: 2;
+}
+
+p{
+    color: white;
+    font-weight: 100;
+    font-size: .8rem;
+    display: block;
+}
+
+.t-left{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.msg{
+    height: 12%;
+    background-color: rgb(15, 132, 15);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    padding: 6px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 20px;
+    height: 58%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+h4{
+    color: orange;
+}
+
+.i-middle{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.i-bottom{
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+.help{
+    width: 34%;
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.share{
+    width: 34%;
+    background-color: grey;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
